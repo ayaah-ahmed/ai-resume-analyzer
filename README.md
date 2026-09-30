@@ -18,8 +18,6 @@ uvicorn app.main:app --reload
 * Try it with `docs/sample_resume.docx`.
 * Tests: `pytest -q`
 
-### Optional: LLM mode
-Copy `.env.example` to `.env` and set `ANTHROPIC_API_KEY`. Agents then let an LLM write the final text (summary, match explanation, advice, answers) **using the retrieved RAG context**. Without a key, a deterministic rule-based composer is used and every feature still works (`GET /api/system/status` shows the active mode).
 
 ## Architecture
 
