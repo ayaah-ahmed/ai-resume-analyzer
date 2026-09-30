@@ -1,0 +1,132 @@
+[
+ {
+  "title": "Junior Backend Developer (Python)",
+  "company": "Nile Tech",
+  "location": "Cairo, Egypt",
+  "job_type": "Full-time",
+  "description": "Build and maintain REST APIs using Python and FastAPI. Design SQL schemas, write unit tests, collaborate with the frontend team and use Git and Docker in an Agile environment.",
+  "required_skills": [
+   "Python",
+   "FastAPI",
+   "SQL",
+   "REST API",
+   "Git",
+   "Docker",
+   "Testing",
+   "Teamwork"
+  ]
+ },
+ {
+  "title": "Frontend Developer",
+  "company": "PixelWorks",
+  "location": "Remote",
+  "job_type": "Full-time",
+  "description": "Create responsive user interfaces with HTML, CSS and JavaScript. Consume REST APIs, ensure cross-browser compatibility and accessibility. React or TypeScript experience is a plus.",
+  "required_skills": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "React",
+   "Git",
+   "REST API",
+   "Communication"
+  ]
+ },
+ {
+  "title": "Data Scientist",
+  "company": "Insight Labs",
+  "location": "Giza, Egypt",
+  "job_type": "Full-time",
+  "description": "Develop machine learning models for prediction and NLP. Clean and analyze data with Pandas and NumPy, train models with scikit-learn and PyTorch, and present findings to stakeholders.",
+  "required_skills": [
+   "Python",
+   "Machine Learning",
+   "Pandas",
+   "NumPy",
+   "scikit-learn",
+   "NLP",
+   "SQL",
+   "Communication"
+  ]
+ },
+ {
+  "title": "AI Engineer \u2013 LLM Applications",
+  "company": "Cortex AI",
+  "location": "Remote",
+  "job_type": "Full-time",
+  "description": "Build LLM-powered applications with retrieval-augmented generation and AI agents. Integrate vector search, design prompts, expose services through Python APIs and deploy with Docker.",
+  "required_skills": [
+   "Python",
+   "LLMs & RAG",
+   "NLP",
+   "FastAPI",
+   "Docker",
+   "Git",
+   "Problem Solving"
+  ]
+ },
+ {
+  "title": "Full Stack Developer",
+  "company": "Delta Systems",
+  "location": "Alexandria, Egypt",
+  "job_type": "Full-time",
+  "description": "Own features end-to-end: Python backend, SQL databases, and a JavaScript frontend. Write clean, tested code and deploy through CI/CD pipelines.",
+  "required_skills": [
+   "Python",
+   "JavaScript",
+   "HTML",
+   "CSS",
+   "SQL",
+   "REST API",
+   "Git",
+   "CI/CD",
+   "Teamwork"
+  ]
+ },
+ {
+  "title": "Data Analyst",
+  "company": "Metrics & Co",
+  "location": "Cairo, Egypt",
+  "job_type": "Part-time",
+  "description": "Analyze business data using SQL and Python, build dashboards in Power BI or Tableau and communicate insights to management.",
+  "required_skills": [
+   "SQL",
+   "Data Analysis",
+   "Power BI",
+   "Tableau",
+   "Python",
+   "Communication"
+  ]
+ },
+ {
+  "title": "DevOps Engineer",
+  "company": "CloudBridge",
+  "location": "Remote",
+  "job_type": "Full-time",
+  "description": "Automate infrastructure and deployments on AWS. Manage Docker and Kubernetes clusters, maintain CI/CD pipelines and monitor production systems on Linux.",
+  "required_skills": [
+   "Linux",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "CI/CD",
+   "Git",
+   "Python"
+  ]
+ },
+ {
+  "title": "Software Engineering Intern",
+  "company": "Nile Tech",
+  "location": "Cairo, Egypt",
+  "job_type": "Internship",
+  "description": "Work alongside senior engineers on real features. Learn code review, Git workflow and testing. Basic Python or Java and data structures knowledge required.",
+  "required_skills": [
+   "Python",
+   "Java",
+   "Data Structures & Algorithms",
+   "Git",
+   "Teamwork",
+   "Adaptability"
+  ]
+ }
+]

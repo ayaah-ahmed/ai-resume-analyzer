@@ -1,0 +1,152 @@
+[
+ {
+  "role": "Backend Developer",
+  "aliases": [
+   "backend",
+   "back-end",
+   "python developer",
+   "api developer",
+   "software engineer"
+  ],
+  "skills": [
+   "Python",
+   "FastAPI",
+   "SQL",
+   "REST API",
+   "Git",
+   "Docker",
+   "Testing",
+   "Linux",
+   "CI/CD",
+   "Data Structures & Algorithms"
+  ],
+  "certifications": [
+   "AWS Certified Cloud Practitioner",
+   "Microsoft Azure Fundamentals (AZ-900)",
+   "PCEP/PCAP \u2013 Python Institute"
+  ],
+  "roadmap": "1) Master Python and data structures. 2) Learn SQL and one framework (FastAPI/Django). 3) Design REST APIs with auth and validation. 4) Add tests and Git workflow. 5) Containerize with Docker and deploy with CI/CD. 6) Learn caching, queues and cloud basics."
+ },
+ {
+  "role": "Frontend Developer",
+  "aliases": [
+   "frontend",
+   "front-end",
+   "web developer",
+   "ui developer"
+  ],
+  "skills": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "TypeScript",
+   "React",
+   "Git",
+   "REST API",
+   "Testing"
+  ],
+  "certifications": [
+   "Meta Front-End Developer Certificate",
+   "freeCodeCamp Responsive Web Design"
+  ],
+  "roadmap": "1) Solid HTML/CSS (flexbox, grid, accessibility). 2) Deep JavaScript (async, DOM, modules). 3) Fetch data from REST APIs. 4) Learn a framework such as React. 5) Add TypeScript and testing. 6) Build and publish a portfolio."
+ },
+ {
+  "role": "Full Stack Developer",
+  "aliases": [
+   "full stack",
+   "full-stack",
+   "fullstack"
+  ],
+  "skills": [
+   "HTML",
+   "CSS",
+   "JavaScript",
+   "Python",
+   "SQL",
+   "REST API",
+   "Git",
+   "Docker",
+   "Testing"
+  ],
+  "certifications": [
+   "Meta Full-Stack Engineer",
+   "AWS Certified Developer \u2013 Associate"
+  ],
+  "roadmap": "1) Front-end fundamentals. 2) One backend language and framework. 3) Relational databases. 4) Authentication and REST design. 5) Deployment with Docker and cloud. 6) Ship 2-3 complete projects."
+ },
+ {
+  "role": "Data Scientist",
+  "aliases": [
+   "data science",
+   "data scientist",
+   "ml engineer",
+   "machine learning engineer",
+   "ai engineer"
+  ],
+  "skills": [
+   "Python",
+   "Machine Learning",
+   "Pandas",
+   "NumPy",
+   "scikit-learn",
+   "SQL",
+   "Data Analysis",
+   "Deep Learning",
+   "NLP",
+   "LLMs & RAG"
+  ],
+  "certifications": [
+   "TensorFlow Developer Certificate",
+   "IBM Data Science Professional Certificate",
+   "Google Professional ML Engineer"
+  ],
+  "roadmap": "1) Python + statistics. 2) Pandas/NumPy and data visualization. 3) Classical ML with scikit-learn. 4) Deep learning with PyTorch/TensorFlow. 5) NLP and LLM applications (RAG, agents). 6) Deploy models as APIs and build a Kaggle/portfolio."
+ },
+ {
+  "role": "Data Analyst",
+  "aliases": [
+   "data analyst",
+   "business analyst",
+   "bi analyst"
+  ],
+  "skills": [
+   "SQL",
+   "Data Analysis",
+   "Python",
+   "Pandas",
+   "Power BI",
+   "Tableau",
+   "Communication"
+  ],
+  "certifications": [
+   "Google Data Analytics Certificate",
+   "Microsoft PL-300 (Power BI)"
+  ],
+  "roadmap": "1) Excel and statistics. 2) SQL joins/aggregations. 3) Python + Pandas. 4) Dashboards in Power BI or Tableau. 5) Storytelling with data."
+ },
+ {
+  "role": "DevOps Engineer",
+  "aliases": [
+   "devops",
+   "site reliability",
+   "sre",
+   "cloud engineer"
+  ],
+  "skills": [
+   "Linux",
+   "Docker",
+   "Kubernetes",
+   "AWS",
+   "CI/CD",
+   "Git",
+   "Python"
+  ],
+  "certifications": [
+   "AWS Solutions Architect \u2013 Associate",
+   "CKA \u2013 Certified Kubernetes Administrator",
+   "HashiCorp Terraform Associate"
+  ],
+  "roadmap": "1) Linux and networking. 2) Git and CI/CD pipelines. 3) Docker then Kubernetes. 4) A cloud provider (AWS). 5) Infrastructure as code and monitoring."
+ }
+]

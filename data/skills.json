@@ -1,0 +1,776 @@
+[
+ {
+  "name": "Python",
+  "category": "technical",
+  "aliases": [
+   "python"
+  ],
+  "description": "General-purpose language widely used for backend, automation, data science and AI.",
+  "resources": [
+   {
+    "title": "Python Official Tutorial",
+    "url": "https://docs.python.org/3/tutorial/"
+   },
+   {
+    "title": "Automate the Boring Stuff",
+    "url": "https://automatetheboringstuff.com/"
+   }
+  ]
+ },
+ {
+  "name": "Java",
+  "category": "technical",
+  "aliases": [
+   "java"
+  ],
+  "description": "Object-oriented language used for enterprise backends and Android.",
+  "resources": [
+   {
+    "title": "Java Tutorials (Oracle)",
+    "url": "https://docs.oracle.com/javase/tutorial/"
+   }
+  ]
+ },
+ {
+  "name": "JavaScript",
+  "category": "technical",
+  "aliases": [
+   "javascript",
+   "js",
+   "ecmascript"
+  ],
+  "description": "Language of the web; runs in browsers and on servers via Node.js.",
+  "resources": [
+   {
+    "title": "javascript.info",
+    "url": "https://javascript.info/"
+   },
+   {
+    "title": "MDN JavaScript Guide",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+   }
+  ]
+ },
+ {
+  "name": "TypeScript",
+  "category": "technical",
+  "aliases": [
+   "typescript"
+  ],
+  "description": "Typed superset of JavaScript that improves maintainability of large codebases.",
+  "resources": [
+   {
+    "title": "TypeScript Handbook",
+    "url": "https://www.typescriptlang.org/docs/handbook/"
+   }
+  ]
+ },
+ {
+  "name": "C++",
+  "category": "technical",
+  "aliases": [
+   "c++",
+   "cpp"
+  ],
+  "description": "Systems language for performance-critical software.",
+  "resources": [
+   {
+    "title": "learncpp.com",
+    "url": "https://www.learncpp.com/"
+   }
+  ]
+ },
+ {
+  "name": "C#",
+  "category": "technical",
+  "aliases": [
+   "c#",
+   "csharp",
+   ".net",
+   "dotnet"
+  ],
+  "description": "Microsoft language for .NET applications and games (Unity).",
+  "resources": [
+   {
+    "title": "C# docs",
+    "url": "https://learn.microsoft.com/dotnet/csharp/"
+   }
+  ]
+ },
+ {
+  "name": "SQL",
+  "category": "technical",
+  "aliases": [
+   "sql",
+   "mysql",
+   "t-sql"
+  ],
+  "description": "Standard language for querying and managing relational databases.",
+  "resources": [
+   {
+    "title": "SQLBolt",
+    "url": "https://sqlbolt.com/"
+   },
+   {
+    "title": "Mode SQL Tutorial",
+    "url": "https://mode.com/sql-tutorial/"
+   }
+  ]
+ },
+ {
+  "name": "SQLite",
+  "category": "technical",
+  "aliases": [
+   "sqlite",
+   "sqlite3"
+  ],
+  "description": "Lightweight embedded relational database.",
+  "resources": [
+   {
+    "title": "SQLite Docs",
+    "url": "https://www.sqlite.org/docs.html"
+   }
+  ]
+ },
+ {
+  "name": "PostgreSQL",
+  "category": "technical",
+  "aliases": [
+   "postgresql",
+   "postgres"
+  ],
+  "description": "Advanced open-source relational database.",
+  "resources": [
+   {
+    "title": "PostgreSQL Tutorial",
+    "url": "https://www.postgresqltutorial.com/"
+   }
+  ]
+ },
+ {
+  "name": "MongoDB",
+  "category": "technical",
+  "aliases": [
+   "mongodb",
+   "mongo"
+  ],
+  "description": "Document-oriented NoSQL database.",
+  "resources": [
+   {
+    "title": "MongoDB University",
+    "url": "https://learn.mongodb.com/"
+   }
+  ]
+ },
+ {
+  "name": "HTML",
+  "category": "technical",
+  "aliases": [
+   "html",
+   "html5"
+  ],
+  "description": "Markup language that structures web pages.",
+  "resources": [
+   {
+    "title": "MDN HTML",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+   }
+  ]
+ },
+ {
+  "name": "CSS",
+  "category": "technical",
+  "aliases": [
+   "css",
+   "css3",
+   "sass",
+   "scss"
+  ],
+  "description": "Stylesheet language for the presentation of web pages.",
+  "resources": [
+   {
+    "title": "MDN CSS",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+   }
+  ]
+ },
+ {
+  "name": "React",
+  "category": "technical",
+  "aliases": [
+   "react",
+   "react.js",
+   "reactjs"
+  ],
+  "description": "JavaScript library for building component-based user interfaces.",
+  "resources": [
+   {
+    "title": "React Docs",
+    "url": "https://react.dev/learn"
+   }
+  ]
+ },
+ {
+  "name": "Node.js",
+  "category": "technical",
+  "aliases": [
+   "node.js",
+   "nodejs",
+   "node"
+  ],
+  "description": "JavaScript runtime for server-side applications.",
+  "resources": [
+   {
+    "title": "Node.js Learn",
+    "url": "https://nodejs.org/en/learn"
+   }
+  ]
+ },
+ {
+  "name": "FastAPI",
+  "category": "technical",
+  "aliases": [
+   "fastapi"
+  ],
+  "description": "Modern, fast Python web framework for building APIs with type hints.",
+  "resources": [
+   {
+    "title": "FastAPI Tutorial",
+    "url": "https://fastapi.tiangolo.com/tutorial/"
+   }
+  ]
+ },
+ {
+  "name": "Django",
+  "category": "technical",
+  "aliases": [
+   "django"
+  ],
+  "description": "Batteries-included Python web framework.",
+  "resources": [
+   {
+    "title": "Django Tutorial",
+    "url": "https://docs.djangoproject.com/en/stable/intro/tutorial01/"
+   }
+  ]
+ },
+ {
+  "name": "Flask",
+  "category": "technical",
+  "aliases": [
+   "flask"
+  ],
+  "description": "Minimal Python micro web framework.",
+  "resources": [
+   {
+    "title": "Flask Quickstart",
+    "url": "https://flask.palletsprojects.com/quickstart/"
+   }
+  ]
+ },
+ {
+  "name": "REST API",
+  "category": "technical",
+  "aliases": [
+   "rest api",
+   "restful",
+   "rest apis",
+   "rest",
+   "api development"
+  ],
+  "description": "Architectural style for designing HTTP APIs.",
+  "resources": [
+   {
+    "title": "REST API Tutorial",
+    "url": "https://restfulapi.net/"
+   }
+  ]
+ },
+ {
+  "name": "Git",
+  "category": "technical",
+  "aliases": [
+   "git",
+   "github",
+   "gitlab",
+   "version control"
+  ],
+  "description": "Distributed version control system.",
+  "resources": [
+   {
+    "title": "Pro Git Book",
+    "url": "https://git-scm.com/book/en/v2"
+   }
+  ]
+ },
+ {
+  "name": "Docker",
+  "category": "technical",
+  "aliases": [
+   "docker",
+   "containers",
+   "containerization"
+  ],
+  "description": "Platform for packaging apps into containers.",
+  "resources": [
+   {
+    "title": "Docker Get Started",
+    "url": "https://docs.docker.com/get-started/"
+   }
+  ]
+ },
+ {
+  "name": "Kubernetes",
+  "category": "technical",
+  "aliases": [
+   "kubernetes",
+   "k8s"
+  ],
+  "description": "Container orchestration platform.",
+  "resources": [
+   {
+    "title": "Kubernetes Basics",
+    "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/"
+   }
+  ]
+ },
+ {
+  "name": "AWS",
+  "category": "technical",
+  "aliases": [
+   "aws",
+   "amazon web services",
+   "ec2",
+   "s3"
+  ],
+  "description": "Amazon's cloud computing platform.",
+  "resources": [
+   {
+    "title": "AWS Skill Builder",
+    "url": "https://skillbuilder.aws/"
+   }
+  ]
+ },
+ {
+  "name": "Linux",
+  "category": "technical",
+  "aliases": [
+   "linux",
+   "bash",
+   "shell scripting",
+   "unix"
+  ],
+  "description": "Operating system family common on servers; command-line proficiency is essential.",
+  "resources": [
+   {
+    "title": "Linux Journey",
+    "url": "https://linuxjourney.com/"
+   }
+  ]
+ },
+ {
+  "name": "CI/CD",
+  "category": "technical",
+  "aliases": [
+   "ci/cd",
+   "github actions",
+   "jenkins",
+   "continuous integration"
+  ],
+  "description": "Automating build, test and deployment pipelines.",
+  "resources": [
+   {
+    "title": "GitHub Actions Docs",
+    "url": "https://docs.github.com/actions"
+   }
+  ]
+ },
+ {
+  "name": "Testing",
+  "category": "technical",
+  "aliases": [
+   "pytest",
+   "unit testing",
+   "unittest",
+   "junit",
+   "test automation",
+   "tdd"
+  ],
+  "description": "Automated testing to keep code reliable.",
+  "resources": [
+   {
+    "title": "pytest Docs",
+    "url": "https://docs.pytest.org/"
+   }
+  ]
+ },
+ {
+  "name": "Data Structures & Algorithms",
+  "category": "technical",
+  "aliases": [
+   "data structures",
+   "algorithms",
+   "dsa"
+  ],
+  "description": "Core CS foundations for efficient problem solving.",
+  "resources": [
+   {
+    "title": "NeetCode Roadmap",
+    "url": "https://neetcode.io/roadmap"
+   }
+  ]
+ },
+ {
+  "name": "Machine Learning",
+  "category": "technical",
+  "aliases": [
+   "machine learning",
+   "ml"
+  ],
+  "description": "Building models that learn patterns from data.",
+  "resources": [
+   {
+    "title": "Google ML Crash Course",
+    "url": "https://developers.google.com/machine-learning/crash-course"
+   },
+   {
+    "title": "Andrew Ng ML Specialization",
+    "url": "https://www.coursera.org/specializations/machine-learning-introduction"
+   }
+  ]
+ },
+ {
+  "name": "Deep Learning",
+  "category": "technical",
+  "aliases": [
+   "deep learning",
+   "neural networks",
+   "cnn",
+   "rnn",
+   "transformers"
+  ],
+  "description": "Neural-network based machine learning.",
+  "resources": [
+   {
+    "title": "fast.ai Course",
+    "url": "https://course.fast.ai/"
+   }
+  ]
+ },
+ {
+  "name": "NLP",
+  "category": "technical",
+  "aliases": [
+   "nlp",
+   "natural language processing",
+   "text mining"
+  ],
+  "description": "Techniques for processing and understanding human language.",
+  "resources": [
+   {
+    "title": "Hugging Face NLP Course",
+    "url": "https://huggingface.co/learn/nlp-course"
+   }
+  ]
+ },
+ {
+  "name": "Pandas",
+  "category": "technical",
+  "aliases": [
+   "pandas"
+  ],
+  "description": "Python library for data manipulation and analysis.",
+  "resources": [
+   {
+    "title": "Pandas Getting Started",
+    "url": "https://pandas.pydata.org/docs/getting_started/"
+   }
+  ]
+ },
+ {
+  "name": "NumPy",
+  "category": "technical",
+  "aliases": [
+   "numpy"
+  ],
+  "description": "Python library for numerical computing.",
+  "resources": [
+   {
+    "title": "NumPy Quickstart",
+    "url": "https://numpy.org/doc/stable/user/quickstart.html"
+   }
+  ]
+ },
+ {
+  "name": "scikit-learn",
+  "category": "technical",
+  "aliases": [
+   "scikit-learn",
+   "sklearn"
+  ],
+  "description": "Python library for classical machine learning.",
+  "resources": [
+   {
+    "title": "scikit-learn Tutorials",
+    "url": "https://scikit-learn.org/stable/tutorial/"
+   }
+  ]
+ },
+ {
+  "name": "TensorFlow",
+  "category": "technical",
+  "aliases": [
+   "tensorflow",
+   "keras"
+  ],
+  "description": "Deep learning framework by Google.",
+  "resources": [
+   {
+    "title": "TensorFlow Tutorials",
+    "url": "https://www.tensorflow.org/tutorials"
+   }
+  ]
+ },
+ {
+  "name": "PyTorch",
+  "category": "technical",
+  "aliases": [
+   "pytorch",
+   "torch"
+  ],
+  "description": "Deep learning framework popular in research.",
+  "resources": [
+   {
+    "title": "PyTorch Tutorials",
+    "url": "https://pytorch.org/tutorials/"
+   }
+  ]
+ },
+ {
+  "name": "Data Analysis",
+  "category": "technical",
+  "aliases": [
+   "data analysis",
+   "data analytics",
+   "data visualization",
+   "statistics",
+   "excel"
+  ],
+  "description": "Turning raw data into insight with statistics and visualization.",
+  "resources": [
+   {
+    "title": "Kaggle Learn",
+    "url": "https://www.kaggle.com/learn"
+   }
+  ]
+ },
+ {
+  "name": "Power BI",
+  "category": "technical",
+  "aliases": [
+   "power bi",
+   "powerbi"
+  ],
+  "description": "Microsoft business intelligence and dashboard tool.",
+  "resources": [
+   {
+    "title": "Power BI Learning",
+    "url": "https://learn.microsoft.com/power-bi/"
+   }
+  ]
+ },
+ {
+  "name": "Tableau",
+  "category": "technical",
+  "aliases": [
+   "tableau"
+  ],
+  "description": "Data visualization platform.",
+  "resources": [
+   {
+    "title": "Tableau Training",
+    "url": "https://www.tableau.com/learn/training"
+   }
+  ]
+ },
+ {
+  "name": "LLMs & RAG",
+  "category": "technical",
+  "aliases": [
+   "llm",
+   "llms",
+   "rag",
+   "retrieval-augmented generation",
+   "langchain",
+   "prompt engineering",
+   "generative ai",
+   "openai",
+   "ai agents"
+  ],
+  "description": "Building applications on large language models, retrieval and agents.",
+  "resources": [
+   {
+    "title": "DeepLearning.AI Short Courses",
+    "url": "https://www.deeplearning.ai/short-courses/"
+   },
+   {
+    "title": "Anthropic Docs",
+    "url": "https://docs.claude.com/"
+   }
+  ]
+ },
+ {
+  "name": "Agile",
+  "category": "technical",
+  "aliases": [
+   "agile",
+   "scrum",
+   "kanban",
+   "jira"
+  ],
+  "description": "Iterative delivery methodologies used by most software teams.",
+  "resources": [
+   {
+    "title": "Scrum Guide",
+    "url": "https://scrumguides.org/"
+   }
+  ]
+ },
+ {
+  "name": "Communication",
+  "category": "soft",
+  "aliases": [
+   "communication",
+   "presentation",
+   "public speaking",
+   "written communication"
+  ],
+  "description": "Explaining ideas clearly to technical and non-technical audiences.",
+  "resources": [
+   {
+    "title": "Coursera: Successful Presentation",
+    "url": "https://www.coursera.org/learn/presentation-skills"
+   }
+  ]
+ },
+ {
+  "name": "Teamwork",
+  "category": "soft",
+  "aliases": [
+   "teamwork",
+   "collaboration",
+   "team player",
+   "collaborative"
+  ],
+  "description": "Working effectively with others toward shared goals.",
+  "resources": [
+   {
+    "title": "Google re:Work Teams Guide",
+    "url": "https://rework.withgoogle.com/"
+   }
+  ]
+ },
+ {
+  "name": "Leadership",
+  "category": "soft",
+  "aliases": [
+   "leadership",
+   "team lead",
+   "mentoring",
+   "mentored",
+   "led a team",
+   "managed a team"
+  ],
+  "description": "Guiding and motivating people and projects.",
+  "resources": [
+   {
+    "title": "HBR Leadership",
+    "url": "https://hbr.org/topic/subject/leadership"
+   }
+  ]
+ },
+ {
+  "name": "Problem Solving",
+  "category": "soft",
+  "aliases": [
+   "problem solving",
+   "problem-solving",
+   "analytical",
+   "troubleshooting"
+  ],
+  "description": "Breaking down ambiguous problems into solvable parts.",
+  "resources": [
+   {
+    "title": "Brilliant Problem Solving",
+    "url": "https://brilliant.org/"
+   }
+  ]
+ },
+ {
+  "name": "Time Management",
+  "category": "soft",
+  "aliases": [
+   "time management",
+   "prioritization",
+   "organization",
+   "organized"
+  ],
+  "description": "Planning and prioritizing work to hit deadlines.",
+  "resources": [
+   {
+    "title": "Atomic Habits (book)",
+    "url": "https://jamesclear.com/atomic-habits"
+   }
+  ]
+ },
+ {
+  "name": "Critical Thinking",
+  "category": "soft",
+  "aliases": [
+   "critical thinking",
+   "decision making"
+  ],
+  "description": "Evaluating evidence and making sound decisions.",
+  "resources": [
+   {
+    "title": "Critical Thinking (Coursera)",
+    "url": "https://www.coursera.org/learn/critical-thinking-skills"
+   }
+  ]
+ },
+ {
+  "name": "Adaptability",
+  "category": "soft",
+  "aliases": [
+   "adaptability",
+   "flexible",
+   "quick learner",
+   "fast learner",
+   "self-motivated"
+  ],
+  "description": "Learning quickly and adjusting to change.",
+  "resources": [
+   {
+    "title": "Learning How to Learn",
+    "url": "https://www.coursera.org/learn/learning-how-to-learn"
+   }
+  ]
+ },
+ {
+  "name": "Creativity",
+  "category": "soft",
+  "aliases": [
+   "creativity",
+   "creative",
+   "innovation",
+   "innovative"
+  ],
+  "description": "Generating new ideas and approaches.",
+  "resources": [
+   {
+    "title": "IDEO Design Thinking",
+    "url": "https://designthinking.ideo.com/"
+   }
+  ]
+ }
+]

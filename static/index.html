@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Resume Analyzer</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>📄 AI Resume Analyzer</h1>
+    <nav id="nav" hidden>
+      <button data-tab="resume" class="active">My Resume</button>
+      <button data-tab="jobs">Jobs</button>
+      <button data-tab="advisor">Career Advisor</button>
+      <span id="userName"></span>
+      <button id="logoutBtn" class="ghost">Logout</button>
+    </nav>
+  </header>
+
+  <div id="toast" role="alert" hidden></div>
+
+  <!-- Authentication -->
+  <main id="authView" class="narrow">
+    <div class="card">
+      <div class="tabs"><button id="showLogin" class="active">Login</button><button id="showRegister">Register</button></div>
+      <form id="loginForm">
+        <label>Email<input type="email" id="loginEmail" required></label>
+        <label>Password<input type="password" id="loginPassword" required></label>
+        <button type="submit">Login</button>
+      </form>
+      <form id="registerForm" hidden>
+        <label>Full name<input id="regName" required minlength="2"></label>
+        <label>Email<input type="email" id="regEmail" required></label>
+        <label>Password (min 6 characters)<input type="password" id="regPassword" required minlength="6"></label>
+        <button type="submit">Create account</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- App -->
+  <main id="appView" hidden>
+    <!-- Resume tab -->
+    <section id="tab-resume" class="tab">
+      <div class="card">
+        <h2>Upload resume</h2>
+        <p class="muted">PDF or DOCX, up to 5 MB.</p>
+        <form id="uploadForm" class="row">
+          <input type="file" id="resumeFile" accept=".pdf,.docx" required>
+          <button type="submit">Upload &amp; analyze</button>
+        </form>
+        <div id="resumeList" class="chips"></div>
+      </div>
+      <div id="analysisBox" class="card" hidden></div>
+      <div id="actionsBox" class="card" hidden>
+        <div class="row">
+          <button id="recBtn">🎯 Recommend jobs</button>
+          <input id="targetRole" placeholder="Target role (e.g. Backend Developer)">
+          <button id="impBtn">🛠 Improve my resume</button>
+        </div>
+      </div>
+      <div id="resultBox"></div>
+    </section>
+
+    <!-- Jobs tab -->
+    <section id="tab-jobs" class="tab" hidden>
+      <div class="card">
+        <h2>Search jobs</h2>
+        <form id="searchForm" class="row">
+          <input id="sQ" placeholder="Keyword">
+          <input id="sLocation" placeholder="Location">
+          <select id="sType"><option value="">Any type</option><option>Full-time</option><option>Part-time</option><option>Internship</option><option>Contract</option></select>
+          <input id="sSkill" placeholder="Skill (e.g. Python)">
+          <button type="submit">Search</button>
+          <button type="button" id="newJobBtn" class="ghost">＋ Add job</button>
+        </form>
+      </div>
+      <div id="jobFormBox" class="card" hidden>
+        <h2 id="jobFormTitle">Add job</h2>
+        <form id="jobForm">
+          <input type="hidden" id="jobId">
+          <div class="row"><label>Title<input id="jTitle" required></label><label>Company<input id="jCompany" required></label></div>
+          <div class="row"><label>Location<input id="jLocation"></label>
+            <label>Type<select id="jType"><option>Full-time</option><option>Part-time</option><option>Internship</option><option>Contract</option></select></label></div>
+          <label>Required skills (comma separated)<input id="jSkills" placeholder="Python, SQL, Git"></label>
+          <label>Description (min 20 characters)<textarea id="jDesc" rows="4" required minlength="20"></textarea></label>
+          <div class="row"><button type="submit">Save</button><button type="button" id="cancelJob" class="ghost">Cancel</button></div>
+        </form>
+      </div>
+      <div id="jobsList"></div>
+    </section>
+
+    <!-- Advisor tab -->
+    <section id="tab-advisor" class="tab" hidden>
+      <div class="card">
+        <h2>Ask the Career Advisor</h2>
+        <p class="muted">Answers are retrieved from the knowledge base (RAG). <span id="modeBadge" class="badge"></span></p>
+        <form id="askForm">
+          <label>Your question<textarea id="question" rows="3" required minlength="3" placeholder="How do I become a backend developer? Which certifications should I get?"></textarea></label>
+          <label class="inline"><input type="checkbox" id="useResume" checked> Personalize using my selected resume</label>
+          <button type="submit">Ask</button>
+        </form>
+      </div>
+      <div id="answerBox"></div>
+    </section>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

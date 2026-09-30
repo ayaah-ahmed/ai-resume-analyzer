@@ -1,0 +1,52 @@
+[
+ {
+  "id": "g_length",
+  "check": "length",
+  "text": "Keep the resume to 1 page (up to 2 for 10+ years of experience). Recruiters spend about 6-10 seconds on a first scan."
+ },
+ {
+  "id": "g_summary",
+  "check": "summary",
+  "text": "Start with a 2-3 line professional summary tailored to the target role, mentioning your key skills and strongest achievement."
+ },
+ {
+  "id": "g_metrics",
+  "check": "metrics",
+  "text": "Quantify achievements with numbers and percentages, e.g. 'Reduced API latency by 40%' instead of 'Improved performance'."
+ },
+ {
+  "id": "g_verbs",
+  "check": "verbs",
+  "text": "Begin each bullet with a strong action verb (Built, Designed, Led, Optimized, Automated) rather than 'Responsible for'."
+ },
+ {
+  "id": "g_projects",
+  "check": "projects",
+  "text": "Include a Projects section with 2-3 relevant projects, a short description, the tech stack and a GitHub link."
+ },
+ {
+  "id": "g_links",
+  "check": "links",
+  "text": "Add links to your GitHub and LinkedIn profiles so recruiters can verify your work."
+ },
+ {
+  "id": "g_contact",
+  "check": "contact",
+  "text": "Put an email address and phone number at the top of the resume, using a professional email address."
+ },
+ {
+  "id": "g_keywords",
+  "check": "keywords",
+  "text": "Mirror keywords from the job description (skills, tools) so Applicant Tracking Systems (ATS) rank the resume higher."
+ },
+ {
+  "id": "g_format",
+  "check": "format",
+  "text": "Use a clean single-column layout, standard section headings (Experience, Education, Skills) and a readable font; avoid images and tables that ATS cannot parse."
+ },
+ {
+  "id": "g_education",
+  "check": "education",
+  "text": "List education with degree, institution and graduation year; add GPA only if it is strong."
+ }
+]
